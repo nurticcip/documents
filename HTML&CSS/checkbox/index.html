@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>More Inputs</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agreee_tos" id="agree">
+        <label for="agree">I agree with everything!</label>
+        <p>
+            <label for="xs">XS</label>
+            <input type="radio" name="size" id="xs" value="lol">
+            <label for="s">S</label>
+            <input type="radio" id="s" name="size" value="pip">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="hop">
+        </p>
+        <p>
+            <label for="meal">Plese select an Entree </label>
+            <select name="meal" id="meal">
+                <option value="fish">Fish</option>
+                <option value="vag">Vegeterian</option>
+                <option value="steak">Steak</option>
+            </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of Cheese: </label>
+            <input type="range" id="cheese" min="1" max="10" name="cheese_level">
+        </p>
+        <p>
+            <label for="requests">Any Special Requests!</label>
+            <br>
+            <textarea placeholder="Type something here!" name="requests" id="requests" cols="30" rows="10"></textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+    <form action="/mammy">
+        <label for="fir">Enter first name: </label>
+        <input type="text" name="fir" id="fir" required>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

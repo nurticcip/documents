@@ -1,0 +1,16 @@
+main{
+    
+}
+.main span{
+    font-weight: bold;
+}
+
+.main__menu ul{
+    display: flex ;
+    justify-content: space-around;
+}
+
+.main__image{
+    width: 20px;
+    height: 20px;
+}
